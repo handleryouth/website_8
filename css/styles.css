@@ -2,8 +2,6 @@ body {
   margin: 0;
   background-color: hsl(240, 75%, 98%);
   font-family: 'Open Sans', sans-serif;
-  /*padding-left: 100px;
-  padding-right: 100px;*/
 }
 
 .header-title {
@@ -40,10 +38,11 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
+  
 }
 
 .first-image {
-  width: 650px;
+  width: 580px;
   height: 450px;
 }
 
@@ -68,7 +67,7 @@ body {
 }
 
 .illustration-second-image {
-  width: 650px;
+  width: 500px;
   height: 450px;
 }
 
@@ -97,8 +96,10 @@ body {
 }
 
 .early-input-email {
+  position: relative;
+  top: 3px;
   width: 500px;
-  height: 40px;
+  height: 45px;
 }
 
 .early-access-description {
@@ -173,12 +174,21 @@ body {
     margin-left: 0;
   }
 
+  .first-image{
+    width: 500px;
+    height: 359px;
+  }
   .early-access-description {
     margin-right: 100px;
   }
 
   .early-input-email {
     width: 400px;
+  }
+
+  .illustration-second-image{
+    width: 440px;
+    height: 300px;
   }
 }
 
@@ -240,6 +250,11 @@ body {
     margin-top: 0;
   }
 
+  .second-page-image{
+    text-align: center;
+  }
+
+
   .illustration-second-image {
     width: 320px;
     height: 280px;
@@ -247,6 +262,10 @@ body {
 
   .up {
     margin: 10px 8px 8px 8px;
+  }
+
+  .header-title{
+    text-align: center;
   }
 
   .link-to-work {
@@ -270,7 +289,7 @@ body {
     padding: 0;
     width: 310px;
     height: 230px;
-    margin: 35px 20px;
+    margin: 50px 300px 50px 300px;
   }
 
   .testimonial-word {
@@ -303,6 +322,18 @@ body {
   .early-input-email, .early-input-button {
     width: 300px;
   }
+
+}
+
+@media (max-width:752px) {
+
+  .down {
+    padding: 0;
+    width: 310px;
+    height: 230px;
+    margin: 40px auto;
+  }
+
 
   /*another info*/
   .address-phone {
