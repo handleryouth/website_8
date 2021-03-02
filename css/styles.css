@@ -1,0 +1,340 @@
+body {
+  margin: 0;
+  background-color: hsl(240, 75%, 98%);
+  font-family: 'Open Sans', sans-serif;
+  /*padding-left: 100px;
+  padding-right: 100px;*/
+}
+
+.header-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+/*navigation bar*/
+.navigation-bar {
+  padding: 30px 100px 30px 100px;
+  display: flex;
+}
+
+.right-link {
+  flex-basis: 1300px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation-bar-link {
+  margin-left: 50px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*first page*/
+.first-page {
+  display: flex;
+  padding: 50px 100px 250px 100px;
+  margin: 50px 0 0 0;
+  background-image: url(../images/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.first-image {
+  width: 650px;
+  height: 450px;
+}
+
+.first-email {
+  width: 330px;
+  height: 48px;
+  position: relative;
+  top: 2px;
+}
+
+.btn {
+  width: 250px;
+  height: 48px;
+  margin: 10px;
+}
+
+/*second page*/
+.second-page {
+  display: flex;
+  padding: 0 100px 120px 100px;
+  background-color: #f4f4fc;
+}
+
+.illustration-second-image {
+  width: 650px;
+  height: 450px;
+}
+
+.down {
+  padding: 30px;
+  background-color: #fff;
+  width: 400px;
+  height: 250px;
+  margin-top: 40px;
+}
+
+.personal-image {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+/*for early access*/
+.ealy-access {
+  background-color: hsl(238, 22%, 44%);
+  padding: 100px;
+  display: flex;
+  color: #fff;
+}
+
+.early-input-email {
+  width: 500px;
+  height: 40px;
+}
+
+.early-access-description {
+  flex-basis: 600px;
+  margin-right: 250px;
+}
+
+.early-input-button {
+  margin-left: 0;
+}
+
+/*for another link*/
+.another-information {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  margin: 50px 0;
+}
+
+.number, .email-adress {
+  float: left;
+  margin-right: 20px;
+}
+
+.number, .email-adress {
+  width: 20px;
+  height: 20px;
+}
+
+.address {
+  width: 400px;
+  margin-top: 50px;
+  margin-right: 120px;
+}
+
+.address-phone {
+  padding: 50px 100px 50px 100px;
+  background-color: hsl(216, 53%, 9%);
+}
+
+.social-media-logo {
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.fa-facebook-f {
+  padding: 10px 12px 10px 12px;
+}
+
+.fa-twitter {
+  padding: 10px 8px 10px 8px;
+}
+
+.another-link {
+  display: flex;
+}
+
+.right-side {
+  margin-left: 20px;
+}
+
+.left-side {
+  margin-right: 20px;
+}
+
+@media (max-width:1470px) {
+  .btn {
+    margin-left: 0;
+  }
+
+  .early-access-description {
+    margin-right: 100px;
+  }
+
+  .early-input-email {
+    width: 400px;
+  }
+}
+
+@media (max-width:950px) {
+
+  /*navigation-bar*/
+  .navigation-bar {
+    margin: 25px 5px 10px 10px;
+    padding: 0;
+  }
+
+  .logo-image {
+    width: 120px;
+    height: 38px;
+  }
+
+  .navigation-bar-link {
+    margin: 5px 10px 0 5px;
+    font-size: 13px;
+  }
+
+  /*fisrt-page*/
+  .first-page {
+    flex-direction: column-reverse;
+    padding: 0;
+    text-align: center;
+  }
+
+  .first-image {
+    width: 320px;
+    height: 280px;
+  }
+
+  .first-page-description {
+    margin: 10px 8px 8px 8px;
+  }
+
+  .header-title {
+    font-size: 25px;
+  }
+
+  .header-description {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .btn {
+    width: 330px;
+    margin-right: 0;
+  }
+
+  /*for second page  */
+  .second-page {
+    padding: 0;
+    flex-direction: column-reverse;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .illustration-second-image {
+    width: 320px;
+    height: 280px;
+  }
+
+  .up {
+    margin: 10px 8px 8px 8px;
+  }
+
+  .link-to-work {
+    text-align: center;
+  }
+
+  .arrow-link {
+    margin-left: 5px;
+    width: 23px;
+    height: 23px;
+  }
+
+  .underline-link-to-work {
+    border-width: 3px;
+    width: 170px;
+    border-color: hsl(170, 45%, 43%);
+    margin-top: 5px;
+  }
+
+  .down {
+    padding: 0;
+    width: 310px;
+    height: 230px;
+    margin: 35px 20px;
+  }
+
+  .testimonial-word {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .personal {
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .personal-image {
+    position: relative;
+  }
+
+  /*for early access*/
+  .ealy-access {
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 30px;
+  }
+
+  .early-access-description {
+    margin: 0;
+    flex-basis: auto;
+  }
+
+  .early-input-email, .early-input-button {
+    width: 300px;
+  }
+
+  /*another info*/
+  .address-phone {
+    padding: 0;
+  }
+
+  .footer-logo {
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 200px;
+    height: 87px;
+  }
+
+  .another-information {
+    font-size: 13px;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+  }
+
+  .another-link {
+    flex-direction: column;
+  }
+
+  .left-side, .right-side {
+    margin: 0;
+  }
+
+  .email-phone {
+    margin-bottom: 20px;
+  }
+
+  .social-media {
+    margin: auto;
+  }
+}
