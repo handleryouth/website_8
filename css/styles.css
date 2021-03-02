@@ -203,8 +203,9 @@ body {
   /*fisrt-page*/
   .first-page {
     flex-direction: column-reverse;
-    padding: 0;
+    padding: 0 0 120px 0;
     text-align: center;
+    background-image: url("../images/bg-curve-mobile.svg");
   }
 
   .first-image {
@@ -236,6 +237,7 @@ body {
     flex-direction: column-reverse;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 0;
   }
 
   .illustration-second-image {
